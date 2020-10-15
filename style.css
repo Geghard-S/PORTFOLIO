@@ -73,6 +73,18 @@ main h1 {
   padding-top: 20px;
 }
 
+#backImage p{
+  font-family: monospace;
+  font-size: 40px;
+  letter-spacing: 10px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 3px 3px #00171F;
+  text-align: center;
+  margin: 0;
+  padding-top: 20px;
+}
+
 h2 {
   margin: 18px 0 12px 0;
   border-bottom: 1px solid #00171F;
@@ -118,25 +130,38 @@ main p {
   padding: 15px;
   
 }
+
+#gmap_canvas{
+  width: 450px;
+  height: 450px;
+  margin: auto;
+  border:0;
+}
+
 /*
 
 Begining on contact section
 
 */
+
 #social{
   padding: 0 22% 0 22%;
   margin: auto;
 }
+
 .contactInfo,.social{/*unordered lists*/
   list-style:none;
 } 
+
 .icon{
   display: inline-block;
   padding: 10px;
 }
+
 #social p{
   text-align: center;
 }
+
 .text{ /*unordered list text*/
   color:#0084B8;
   font-size: 18px;
@@ -153,9 +178,11 @@ Groups & Items  (Mobile First)
 .bg-primary {
   background-color: rgb(0,132,184, 0.3);
 }
+
 .group img {
   width: 100%;
 }
+
 .group {
   display: flex;
   flex-direction: column;
@@ -194,6 +221,7 @@ Groups & Items  (Desktop)
     .group {
     flex-direction: row;
     }
+
     header {
       display: flex;
       justify-content: space-between;
@@ -212,9 +240,11 @@ Groups & Items  (Desktop)
     header nav ul li a:hover {
       color: #bdbdbd;
     }
+
     #wrapper{
       width: 800px;
     }
+
   } 
 
   /*
@@ -225,18 +255,23 @@ Groups & Items  (Desktop)
 .link{
   text-decoration: none;
 }
+
 .link{
   color:white;
 }
+
 .link:visited{
   color:orange;
 }
+
 .link:hover{
   color:blue;
 }
+
 .link:active{
   color: yellow;
 }
+
 .textNotFound{
   color:white;
 }
