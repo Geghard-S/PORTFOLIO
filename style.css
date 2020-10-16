@@ -253,13 +253,12 @@ Groups & Items  (Desktop)
     }
 
     #backImage{
-      
       width: 800px;
       height: 100px;
     }
 
     .group {
-    flex-direction: row;
+      flex-direction: row;
     }
 
     header {
@@ -283,6 +282,7 @@ Groups & Items  (Desktop)
 
     #wrapper{
       width: 800px;
+      margin-top: -39px;
     }
 
   } 
