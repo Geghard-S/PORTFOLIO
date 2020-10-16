@@ -1,6 +1,6 @@
 body{
   margin:auto;
-  height: 2100px!important;
+  height: 2300px!important;
   background-image:linear-gradient(0deg,#003459,#00171F);
 }
 /*
@@ -145,7 +145,7 @@ Begining on contact section
 */
 
 #social{
-  padding: 0 22% 0 22%;
+  padding: 0% 22% 0 22%;
   margin: auto;
 }
 
@@ -168,9 +168,49 @@ Begining on contact section
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+#contact2{
+  font-size: 18px;
+  padding: 0 280px 30px 280px;
+}
+
+label{
+  color:#0084B8;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+label input{
+  width:250px;
+}
+
+#message{
+  width:250px;
+  height:50px;
+}
+
+button{
+  width: 250px;
+  background-color:#FFFFFF;
+}
+
 /*
 
 End of contact section
+-----------------------
+footer
+
+*/
+
+body footer{
+  height: 50px;
+  padding-top:20px;
+  position: absolute;
+  color: #FFFFFF;
+}
+
+
+/*
+
+End of Footer
 -----------------------
 Groups & Items  (Mobile First) 
 */
@@ -275,3 +315,4 @@ Groups & Items  (Desktop)
 .textNotFound{
   color:white;
 }
+
