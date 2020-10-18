@@ -1,6 +1,6 @@
 body{
   margin:auto;
-  height: 2300px!important;
+  height: 3200px!important;
   background-image:linear-gradient(0deg,#003459,#00171F);
 }
 /*
@@ -136,6 +136,13 @@ main p {
   height: 450px;
   margin: auto;
   border:0;
+}
+
+div p{
+  font-family: fantasy;
+  font-weight: bold;
+  padding: 0 5%;
+  width: 90%;
 }
 
 /*
