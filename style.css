@@ -128,8 +128,16 @@ div p{
   width: 90%;
 }
 
+.project p{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  padding: 0 5%;
+  width: 90%;
+}
+
 a{
   text-decoration: none;
+  color: #0084B8;
 
 }
 
@@ -139,8 +147,6 @@ a:hover{
 
 /*
 
-End of body section
---------------------------
 Begining on contact section
 
 */
@@ -271,7 +277,7 @@ Groups & Items  (Desktop)
 @media all and (min-width: 800px) {
     body{
       margin:auto;
-      height: 3000px!important;
+      height: 3300px!important;
     }
 
     #wrapper{
@@ -317,8 +323,8 @@ Groups & Items  (Desktop)
     }
 
     #project{
-      height: 500px;
-      max-height: 500px;
+      height: 680px;
+      max-height: 680px;
     }
 
     #gmap_canvas{
